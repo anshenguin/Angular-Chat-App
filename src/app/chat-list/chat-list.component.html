@@ -1,0 +1,14 @@
+<mat-list>
+  <div class="chat-list-item"  *ngFor="let item of chatList; let i=index">
+    <div class="row container py-2">
+        <div class="text-center col-xs-2 chat-item-logo">
+          <img class="ml-3" src="{{item.imgPath}}">
+        </div>
+        <div class="chat-item-text col-xs-10">
+          <h6 class="ml-4">{{item.name}}</h6>
+          <p class="ml-4">{{item.lastMsg}}</p>
+      </div>
+    </div>
+    <mat-divider *ngIf="!(i===getListSize()-1)"></mat-divider>
+  </div>
+</mat-list>

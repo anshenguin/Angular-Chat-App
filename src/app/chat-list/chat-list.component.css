@@ -1,0 +1,32 @@
+img{
+  max-width:50px;
+  border-radius:100%;
+}
+
+.chat-item-logo{
+  width:20%;
+}
+
+.chat-item-text{
+  width:80%;
+}
+
+mat-list-item{
+  padding-bottom:10px;
+}
+
+h6{
+  margin-bottom:2px;
+}
+
+.chat-list-item{
+  cursor:pointer;
+}
+
+.chat-list-item:hover{
+  background-color:gray;
+}
+
+.mat-list-base{
+  padding-top:0;
+}
