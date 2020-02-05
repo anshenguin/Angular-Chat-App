@@ -1,0 +1,21 @@
+.input-send-msg{
+  position:fixed;
+  bottom:0px;
+  background-color:gainsboro;
+  width:100%;
+}
+
+mat-form-field{
+  width:100%;
+    padding:0px 5px;
+}
+
+input{
+  margin:0;
+}
+
+.chat-msgs{
+  background-color:red;
+  overflow-y: scroll;
+  height:80vh;
+}
